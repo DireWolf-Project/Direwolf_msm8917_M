@@ -21,11 +21,13 @@
 #define MIN_TTYB_SIZE	256
 #define TTYB_ALIGN_MASK	255
 
+#define TTYB_DEFAULT_MEM_LIMIT	131072
+
 /*
  * Byte threshold to limit memory consumption for flip buffers.
  * The actual memory limit is > 2x this amount.
 
-#define TTYB_DEFAULT_MEM_LIMIT	(640 * 1024UL)
+
 
 
 /*
